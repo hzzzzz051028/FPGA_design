@@ -9,19 +9,18 @@ z2
 cModel Technology
 Z0 dG:/verilog/course_design/work
 T_opt
-!s110 1772720476
-V[n@aEF3:P^GSS^_K9c7nV1
+!s110 1773452574
+VKd`S?HMEmC6ED@8<9_0c=1
 Z1 04 6 4 work soc_tb fast 0
-=1-40c2ba100ed5-69a9915c-42-9620
+=1-bceca00ec0e6-69b4bd1e-14a-697c
 Z2 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z3 OL;O;10.4;61
-R0
 T_opt1
-!s110 1773410833
-VHQBzOh6EO@6:^ZDzVQcUm3
+!s110 1773451865
+VEf2bcKOBUd]BLBemPcHE:0
 R1
-=1-bceca00ec0e6-69b41a0d-34b-9464
+=1-bceca00ec0e6-69b4ba59-de-31c8
 o-quiet -auto_acc_if_foreign -work work
 n@_opt1
 R3
@@ -34,6 +33,7 @@ R1
 R2
 n@_opt2
 R3
+R0
 vALU
 !s110 1772422751
 !i10b 1
@@ -56,7 +56,7 @@ r1
 Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 n@a@l@u
 vcontrol
-Z8 !s110 1773410809
+Z8 !s110 1773452542
 !i10b 1
 !s100 Q4gf0eZ=hWTz`]A7WzK>O3
 IKDgVN_AKcbTY60SkXR8Pj3
@@ -70,7 +70,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410809.525000
+!s108 1773452542.613000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/control.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/control.v|
 !i113 0
@@ -90,7 +90,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410809.632000
+!s108 1773452542.698000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/cp0.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/cp0.v|
 !i113 0
@@ -110,7 +110,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410809.793000
+!s108 1773452542.787000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/cpu_top.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/cpu_top.v|
 !i113 0
@@ -150,14 +150,14 @@ R6
 r1
 !s85 0
 31
-!s108 1773410809.908000
+!s108 1773452542.885000
 !s107 E:/FPGA_ModelMachine_Design-main/DataMem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/DataMem.v|
 !i113 0
 R7
 n@data@mem
 vEX
-Z11 !s110 1773410810
+Z11 !s110 1773452543
 !i10b 1
 !s100 ]Ln3LKzd8PAYJ=CfcC;1D2
 IVo644j2dmU_flFh:F_hVL3
@@ -171,7 +171,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410810.100000
+!s108 1773452543.069000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/EX.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/EX.v|
 !i113 0
@@ -213,7 +213,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410810.212000
+!s108 1773452543.151000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/IF.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/IF.v|
 !i113 0
@@ -222,11 +222,11 @@ n@i@f
 vInstMem
 R11
 !i10b 1
-!s100 JU?D=gd1CWUP0Eea>jVUV2
-I?i3nnLJXP]>E@GTVd]OPY1
+!s100 7iX69NJO7mim5kbS2z2Tg0
+I;L9zU@<a;gb<6SePiEziP0
 R4
 R9
-R12
+w1773411461
 8E:/FPGA_ModelMachine_Design-main/InstMem.v
 FE:/FPGA_ModelMachine_Design-main/InstMem.v
 L0 3
@@ -234,7 +234,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410810.325000
+!s108 1773452543.227000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/InstMem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/InstMem.v|
 !i113 0
@@ -243,11 +243,11 @@ n@inst@mem
 vMIPS
 R11
 !i10b 1
-!s100 =RC6N5Y]XS8Z8]jImX0=l1
-IVNk5oVBI8l8hd0QhoZIU60
+!s100 `>WC<QCV1;Yn`Z^Y?Z@lM0
+I;o_@;`^FK]:fhPYOCd4Y;3
 R4
 R9
-R12
+Z13 w1773411460
 8E:/FPGA_ModelMachine_Design-main/MIPS.v
 FE:/FPGA_ModelMachine_Design-main/MIPS.v
 L0 3
@@ -255,7 +255,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410810.424000
+!s108 1773452543.357000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/MIPS.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/MIPS.v|
 !i113 0
@@ -276,7 +276,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410810.531000
+!s108 1773452543.452000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/RegFile.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/RegFile.v|
 !i113 0
@@ -285,11 +285,11 @@ n@reg@file
 vsoc_tb
 R11
 !i10b 1
-!s100 3]k7CQQTQU8DLQoezzCIz0
-IA6hP5i9A@j<4STk:J<oWi1
+!s100 4:Y8M=egYHF>9UZF:<kU92
+IUI]7lboloZT[9kMK6UoD_2
 R4
 R9
-w1773410737
+R13
 8E:/FPGA_ModelMachine_Design-main/testbench.v
 FE:/FPGA_ModelMachine_Design-main/testbench.v
 L0 3
@@ -297,7 +297,7 @@ R6
 r1
 !s85 0
 31
-!s108 1773410810.643000
+!s108 1773452543.532000
 !s107 define.v|E:/FPGA_ModelMachine_Design-main/testbench.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_ModelMachine_Design-main/testbench.v|
 !i113 0

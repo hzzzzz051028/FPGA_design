@@ -1,16 +1,16 @@
-E:/FPGA_ModelMachine_Design-main/control.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/control.v
+E:/FPGA_ModelMachine_Design-main/MIPS.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/MIPS.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module control
+-- Compiling module MIPS
 
 Top level modules:
-	control
+	MIPS
 
-} {} {}} E:/FPGA_ModelMachine_Design-main/DataMem.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/DataMem.v
+} {} {}} E:/FPGA_ModelMachine_Design-main/InstMem.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/InstMem.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module DataMem
+-- Compiling module InstMem
 
 Top level modules:
-	DataMem
+	InstMem
 
 } {} {}} E:/FPGA_ModelMachine_Design-main/EX.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/EX.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -19,12 +19,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	EX
 
-} {} {}} E:/FPGA_ModelMachine_Design-main/cpu_top.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/cpu_top.v
+} {} {}} E:/FPGA_ModelMachine_Design-main/DataMem.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/DataMem.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module cpu_top
+-- Compiling module DataMem
 
 Top level modules:
-	cpu_top
+	DataMem
+
+} {} {}} E:/FPGA_ModelMachine_Design-main/control.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/control.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module control
+
+Top level modules:
+	control
 
 } {} {}} E:/FPGA_ModelMachine_Design-main/RegFile.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/RegFile.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -33,15 +40,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	RegFile
 
-} {} {}} E:/FPGA_ModelMachine_Design-main/cp0.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/cp0.v
+} {} {}} E:/FPGA_ModelMachine_Design-main/cpu_top.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/cpu_top.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module cp0
+-- Compiling module cpu_top
 
 Top level modules:
-	cp0
-
-} {} {}} E:/FPGA_ModelMachine_Design-main/define.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/define.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+	cpu_top
 
 } {} {}} E:/FPGA_ModelMachine_Design-main/IF.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/IF.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -49,5 +53,22 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	IF
+
+} {} {}} E:/FPGA_ModelMachine_Design-main/define.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/define.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+
+} {} {}} E:/FPGA_ModelMachine_Design-main/cp0.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/cp0.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cp0
+
+Top level modules:
+	cp0
+
+} {} {}} E:/FPGA_ModelMachine_Design-main/testbench.v {1 {vlog -work work -vopt -stats=none E:/FPGA_ModelMachine_Design-main/testbench.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module soc_tb
+
+Top level modules:
+	soc_tb
 
 } {} {}}
